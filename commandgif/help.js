@@ -23,7 +23,9 @@ const embed = new Discord.MessageEmbed()
 \`emoji\`
 
 **Links**
-**[Invite](https://discord.com/oauth2/authorize?client_id=806840212608909344&permissions=70346817&scope=bot) - [Server Support](https://discord.gg/jcs4XwcExv)**
+**[Invite](https://discord.com/api/oauth2/authorize?client_id=860631101840031784&permissions=8&scope=bot)
+
+ - [Server Support](https://discord.gg/xs4FA8jc32)**
 `)
     
 message.channel.send({embed});
