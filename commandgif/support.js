@@ -26,7 +26,7 @@ aliases: ['support'],
 permLevel: 0
 };
 
-exports.help * {
+exports.help = {
   name: 'support',
   description: 'rexuss',
   usage: 'support'
