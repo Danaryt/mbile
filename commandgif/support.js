@@ -11,9 +11,9 @@ const embed = new Discord.MessageEmbed()
 .setThumbnail(message.author.avatarURL({dynamic: "true"}))
 .setTitle(`**Links**`)
 .setDescription(`
-[Invite Me](https://discord.com/oauth2/authorize?client_id=806840212608909344&permissions=70346817&scope=bot)
+[Invite Me](https://discord.com/api/oauth2/authorize?client_id=860631101840031784&permissions=8&scope=bot)
 -
-[Support Server](https://discord.gg/jcs4XwcExv)
+[Support Server](https://discord.gg/xs4FA8jc32)
 `)
 .setFooter(`Requested by ${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))    
 message.channel.send({embed});
@@ -26,7 +26,7 @@ aliases: ['support'],
 permLevel: 0
 };
 
-exports.help = {
+exports.help * {
   name: 'support',
   description: 'rexuss',
   usage: 'support'
