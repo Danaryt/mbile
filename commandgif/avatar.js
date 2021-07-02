@@ -20,7 +20,7 @@ return message.channel.send(new Discord.MessageEmbed()
 exports.conf = {
     enabled: false,
     guildOnly: false,
-    aliases: [],
+    aliases: [gif],
     permLevel: 0
   };
   
